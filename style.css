@@ -1,0 +1,247 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------------------------------------------------------------My Code----------------------------------------------------------*/
+
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  background: linear-gradient(
+    160deg,
+    rgba(99, 99, 99, 1) 0%,
+    rgba(0, 8, 5, 1) 100%
+  );
+}
+
+/* ---------------------------------------------------------------Frames---------------------------------------------------------- */
+
+.main {
+  position: relative;
+  height: 550px;
+  width: 300px;
+}
+
+.car1,
+.car2,
+.car3,
+.car4 {
+  position: absolute;
+  height: 550px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------------------------------------1st Container------------------------------------------------------- */
+
+.car1 {
+  /* background: red; */
+  z-index: 1;
+}
+
+#bmw {
+  position: absolute;
+  height: 525px;
+  width: 275px;
+  /* background-color: goldenrod; */
+  z-index: 1;
+}
+
+/* -----------------------------------------------------------2nd Container------------------------------------------------------- */
+
+.car2 {
+  /* background: gold; */
+  z-index: 2;
+}
+
+#porche {
+  position: absolute;
+  height: 525px;
+  width: 275px;
+  /* background-color: burlywood; */
+  z-index: 2;
+}
+/* -----------------------------------------------------------3rd Container------------------------------------------------------- */
+
+.car3 {
+  /* background: purple; */
+  z-index: 3;
+}
+
+#mustang {
+  position: absolute;
+  height: 525px;
+  width: 275px;
+  /* background-color: brown; */
+  z-index: 3;
+}
+
+/* ----------------------------------------------------------4th Container-------------------------------------------------------- */
+
+.car4 {
+  /* background: cyan; */
+  z-index: 4;
+}
+
+#supra {
+  position: absolute;
+  height: 525px;
+  width: 275px;
+  /* background-color: pink; */
+  z-index: 4;
+}
+
+.logo {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  /* background-color: blueviolet; */
+  top: 225px;
+  left: 80px;
+  z-index: 5;
+}
+
+/* ---------------------------------------------------------------Images---------------------------------------------------------- */
+
+#blurry {
+  height: 100%;
+  width: 100%;
+  opacity: 60%;
+}
+
+#icon {
+  height: 100%;
+  width: 100%;
+}
+
+#model {
+  height: 100%;
+  width: 100%;
+}
